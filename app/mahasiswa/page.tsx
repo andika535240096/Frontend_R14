@@ -10,7 +10,6 @@ export default async function UsersPage() {
       <ul>
         {data.map((item: any) => (
           <li key={item.id} className="mb-2 border-b pb-2">
-            {/* Sesuaikan field di bawah dengan schema anda (misal item.nama, item.email) */}
             Nama: {item.nama} 
           </li>
         ))}
